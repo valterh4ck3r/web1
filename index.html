@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<title>.:: Colégio Imaculado ::.</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link href="alternative.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/modernizr.js"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-2.1.1.js"></script>
+	<script src="js/jquery.mobile.min.js"></script>
+	<script src="js/main.js"></script>
+    <script type="text/javascript">
+        $().ready(function(){
+            $('[rel="tooltip"]').tooltip();
+        });
+
+        function enviar(){
+        	alert("E-mail enviado com sucesso!")
+        }
+    
+        function rotateCard(btn){
+            var $card = $(btn).closest('.card-container');
+            console.log($card);
+            if($card.hasClass('hover')){
+                $card.removeClass('hover');
+            } else {
+                $card.addClass('hover');
+            }
+        }
+    </script>
+</head>
+<body>
+	<div class="default">
+		<nav class="navbar navbar-default">
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand">Colégio Imaculado</a>
+				<button type="button" data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle">Menu</button>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li align="right"><a href="#sobre">Sobre</a></li>
+					<li align="right"><a href="#galeria">Galeria</a></li>
+					<li align="right"><a href="#contato">Contato</a></li>
+					</ul>
+			</div>
+		</nav>			
+	</div>
+
+
+	<div class="col-lg-5 col-lg-offset-2 col-sm-6 l-fixa" align="center">
+        <img class="img-responsive logo centraliza-vertical" src="img/logo.png">
+    </div>
+
+    <div class="content-section-a">
+    	<div class="container">
+            <div class="row">
+                <div class="cd-item-info">
+                    <hr class="section-heading-spacer">
+                    <a name="sobre"></a>
+                    <h2 class="section-heading zrnic">Colégio Imaculado</h2>
+                    <p>Colégio Imaculado Coração de Maria, desde 2 de fevereiro de 1955 uma Escola de Serviço do Senhor, firmando seus ideais de Igreja, sociedade, pessoa e educação fundamentadas na justiça, solidariedade, democracia e no serviço à vida e à esperança.
+					Em meados da década de 50 do século XX, era urgente a demanda por uma escola que atendesse às expectativas das famílias do Bairro Novo, no que se referia à qualidade educacional, na perspectiva da formação integral de suas crianças.
+					</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <a name="galeria"></a>
+                    <h2 class="section-heading">Galeria</h2>
+                    <p class="lead">Trabalho sobre a sustentabilidade</p>
+                    <section class="cd-single-item">
+						<div class="cd-slider-wrapper" style="color: blue;">
+							<ul class="cd-slider">
+								<li class="selected"><img src="img/sus/sus1.jpg" alt="Sexto Ano Turma A"/></li>
+								<li><img src="img/sus/sus2.jpg" alt="Sexto Ano Turma B"/></li>
+								<li><img src="img/sus/sus3.jpg" alt="Sétimo Ano Turma A"/></li>
+								<li><img src="img/sus/sus4.jpg" alt="Sétimo Ano Turma A"/></li>
+								<li><img src="img/sus/sus5.jpg" alt="Sétimo Ano Turma A"/></li>
+							</ul>
+
+							<ul class="cd-slider-navigation">
+								<li><a href="#0" class="cd-prev"><img src="img/close.png">Próximo</a></li>
+								<li><a href="#0" class="cd-next">Anterior</a></li>
+							</ul>
+
+							<a href="#0" class="cd-close"><img src=""/>Fechar</a>
+						</div>
+					</section>
+
+                    <p class="lead">Homenagem dos 60 anos de Colégio Imaculado.</p>
+                    <section class="cd-single-item">
+						<div class="cd-slider-wrapper" style="color: blue;">
+							<ul class="cd-slider">
+								<li class="selected"><img src="img/hom/hom1.jpg" alt="Sexto Ano Turma A"/></li>
+								<li><img src="img/hom/hom2.jpg" alt="Sexto Ano Turma B"/></li>
+								<li><img src="img/hom/hom3.jpg"  alt="Sétimo Ano Turma A"/></li>
+								<li><img src="img/hom/hom4.jpg"  alt="Sétimo Ano Turma A"/></li>
+								<li><img src="img/hom/hom5.jpg"  alt="Sétimo Ano Turma A"/></li>
+							</ul>
+
+							<ul class="cd-slider-navigation">
+								<li><a href="#0" class="cd-prev"><img src="img/close.png">Próximo</a></li>
+								<li><a href="#0" class="cd-next">Anterior</a></li>
+							</ul>
+
+							<a href="#0" class="cd-close"><img src=""/>Fechar</a>
+						</div>
+					</section>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <a name="contato"> </a>
+	<div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Entre em contato conosco:</h2>
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="mailto:cicm@imaculado.com.br" class="btn btn-default btn-lg destaque"><i class="fa fa-envelope-o fa-fw"></i> <span class="network-name">cicm@imaculado.com.br</span></a>
+                        </li>
+                        <li>
+                            <a href="tel:+558134343434" class="btn btn-default btn-lg  destaque"><i class="fa fa-phone fa-fw"></i> <span class="network-name">+55 81 3087.0650</span></a>
+                        </li>
+                    </ul>
+
+                    <form class="form-horizontal" id="form1" name="form1">
+                    <h3>E-mail:</h2>
+                    <div class="form-group">
+						  <label class="col-md-4 control-label" for="Nome">Nome:</label>  
+						  <div class="col-md-4">
+						  <input id="nome" name="nome" type="text" placeholder="Insira seu nome..." class="form-control input-md"> 
+						  </div>
+						</div>
+						
+						<div class="form-group" align="left">
+						  <label class="col-md-4 control-label">Email:</label>  
+						  <div class="col-md-4">
+						  <input id="email" name="email" type="email" placeholder="email@email.com.br"  class="form-control input-md">
+						  </div>
+						</div>
+						
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="mensagem">Mensagem</label>
+						  <div class="col-md-4">                     
+						    <textarea class="form-control" id="mensagem" name="mensagem">Envie-nos uma mensagem.</textarea>
+						  </div>
+						</div>
+						<div class="form-group" align="center">
+						  <label class="col-md-4 control-label"></label>  
+						  <div class="col-md-4">
+						  <button class="btn btn-default" onclick="enviar()">Enviar</button>
+						  </div>
+						</div>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container" style="background-color: #f2f2f2;">
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">⋅</li>
+                        <li>
+                            <a href="#sobre">Sobre</a>
+                        </li>
+                        <li class="footer-menu-divider">⋅</li>
+                        <li>
+                            <a href="#galeria">Galeria</a>
+                        </li>
+                        <li class="footer-menu-divider">⋅</li>
+                        <li>
+                            <a href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                 <p class="copyright text-muted small">© Colégio Imaculado<script>var ano = new Date().getYear();if (ano < 1000){ano+=1900;};document.write(""+ano+"");</script>2016</p>
+                </div>
+                <div class="col-lg-6">
+                    <p class="text-muted text-right small">
+                        Bairro Novo - Olinda<br>
+                        Rua Francisco Ambrósio de Barros Leite, 501 | CEP: 50030-160
+                        Fone: (81) 3087.0650 | (81) 3439.1806
+                        E-mail: cicm@imaculado.com.br                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
