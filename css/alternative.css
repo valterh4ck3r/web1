@@ -1,6 +1,19 @@
 #banner{
 	background-color: #f2f2f2;
 }
-#contato{
 
+.col-md-12 cd-slider-wrapper{
+	color: blue;
+}
+
+#containerbaixo{
+	background-color: #e7e7e7;
+}
+
+#galeria{
+	background-color: white
+}
+
+#iframe{
+	border:2;
 }
